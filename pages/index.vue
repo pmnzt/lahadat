@@ -8,13 +8,24 @@ const lastname = ref('')
 const email = ref('')
 const message = ref('')
 
-function handleSubmit() {
+async function handleSubmit() {
   isLoading.value = true
 
-  setTimeout(() => {
+  const response = await fetch('/api/send', {
+    method: 'POST',
+    body: JSON.stringify({
+      firstname: firstname.value,
+      lastname: lastname.value,
+      email: email.value,
+      message: message.value
+    })
+  })
+
+  if (response.ok) {
     onComplete()
-    isLoading.value = false;
-  }, 2000)
+  }
+
+  isLoading.value = false;
 }
 
 function onComplete() {
