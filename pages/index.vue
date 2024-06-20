@@ -6,7 +6,7 @@
       <Effect2 />
     </div>
 
-    <div z="10" p="1em" pt="5em">
+    <div z="10" p="1em" pt="25% sm:5%">
       <Logo  />
     </div>
   </div>

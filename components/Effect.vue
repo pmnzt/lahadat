@@ -1,27 +1,35 @@
 <template>
     <div h-full top="50%" relative class="wrapper">
-        <svg absolute right="0"  translate-y="-50%" width="-50%" height="100%" viewBox="0 0 479 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g filter="url(#filter0_f_347_2860)">
-                <circle cx="617" cy="512" r="344" fill="#FF9F92" />
-            </g>
-            <!-- <defs>
-                <filter id="filter0_f_347_2860" x="0.200012" y="-104.8" width="1233.6" height="1233.6"
-                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="136.4" result="effect1_foregroundBlur_347_2860" />
-                </filter>
-            </defs> -->
-        </svg>
-
-        <svg absolute left="0" rotate="180deg" translate-y="-50%" width="-50%" height="100%" viewBox="0 0 479 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g filter="url(#filter0_f_347_2860)">
-                <circle cx="617" cy="512" r="344" fill="#FF9F92" />
+        <svg fixed right="-60%" translate-y="-50%" width="80%" viewBox="0 0 1093 1108"
+            fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_f_2_9)">
+                <path
+                    d="M546.5 200C737.867 200 893 358.491 893 554C893 749.509 737.867 908 546.5 908C355.133 908 200 749.509 200 554C200 358.491 355.133 200 546.5 200Z"
+                    fill="#FF9F92" />
             </g>
             <defs>
-                <filter id="filter0_f_347_2860" x="0.200012" y="-104.8" width="1233.6" height="1233.6"
-                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feGaussianBlur stdDeviation="136.4" result="effect1_foregroundBlur_347_2860" />
+                <filter id="filter0_f_2_9" x="0" y="0" width="1093" height="1108" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_2_9" />
+                </filter>
+            </defs>
+        </svg>
+
+        <svg fixed left="-60%" rotate="180deg" translate-y="-50%" width="80%" viewBox="0 0 1093 1108"
+            fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_f_2_9)">
+                <path
+                    d="M546.5 200C737.867 200 893 358.491 893 554C893 749.509 737.867 908 546.5 908C355.133 908 200 749.509 200 554C200 358.491 355.133 200 546.5 200Z"
+                    fill="#FF9F92" />
+            </g>
+            <defs>
+                <filter id="filter0_f_2_9" x="0" y="0" width="1093" height="1108" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_2_9" />
                 </filter>
             </defs>
         </svg>
@@ -29,7 +37,7 @@
 </template>
 
 <style scoped>
-  .wrapper {
-    mix-blend-mode:luminosity
-  }
+.wrapper {
+    mix-blend-mode: luminosity
+}
 </style>
