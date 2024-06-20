@@ -17,7 +17,7 @@
             </defs>
         </svg>
 
-        <svg fixed left="md:-60% -140%" rotate="180deg" translate-y="-50%" w="md:80% 200vw" viewBox="0 0 1093 1108"
+        <svg fixed left="md:-60% -300%" rotate="180deg" translate-y="-50%" w="md:80% 200vw" viewBox="0 0 1093 1108"
             fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_f_2_9)">
                 <path
