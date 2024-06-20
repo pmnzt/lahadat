@@ -5,18 +5,19 @@ const supabase = createClient('https://avixicmtntfmrguexupw.supabase.co', 'eyJhb
 
 
 export default defineEventHandler(async (event) => {
-    const body = await readBody(event)
+    const body = JSON.parse(await readBody(event))
 
-    console.log(body)
-
-    const { error } = await supabase
-    .from('doc')
-    .insert({
+    const doc = {
         firstname: body.firstname,
         lastname: body.lastname,
         email: body.email,
         message: body.message
-    })
+    }
+
+
+    const { error } = await supabase
+    .from('doc')
+    .insert(doc)
 
     if (!error) {
         return {

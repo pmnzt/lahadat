@@ -21,7 +21,9 @@ async function handleSubmit() {
     })
   })
 
-  if (response.ok) {
+  const parsed = await response.json()
+
+  if (await parsed.ok) {
     onComplete()
   }
 
