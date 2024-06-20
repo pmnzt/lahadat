@@ -1,6 +1,6 @@
 <template>
     <div>
-        <svg mx="auto" w="md:20% 80%" h="md:5% 20%" viewBox="0 0 555 182" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg mx="auto" w="md:20% 70%" h="md:5% 10%" viewBox="0 0 555 182" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_346_197)">
                 <g filter="url(#filter0_d_346_197)">
                     <path
