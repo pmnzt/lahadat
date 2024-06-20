@@ -3,7 +3,7 @@ import '~/assets/tailwind-reset.css'
 </script>
 
 <template>
-  <div id="pages" h="100vh 100dvh" text="white">
+  <div id="pages" h="100vh 100svh" text="white">
     <NuxtPage />
   </div>
 </template>
