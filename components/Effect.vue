@@ -5,7 +5,7 @@
             <g filter="url(#filter0_f_2_9)">
                 <path
                     d="M546.5 200C737.867 200 893 358.491 893 554C893 749.509 737.867 908 546.5 908C355.133 908 200 749.509 200 554C200 358.491 355.133 200 546.5 200Z"
-                    fill="#FF9FF2" />
+                    fill="#FF9F9F" />
             </g>
             <defs>
                 <filter id="filter0_f_2_9" x="0" y="0" width="1093" height="1108" filterUnits="userSpaceOnUse"
@@ -22,7 +22,7 @@
             <g filter="url(#filter0_f_2_9)">
                 <path
                     d="M546.5 200C737.867 200 893 358.491 893 554C893 749.509 737.867 908 546.5 908C355.133 908 200 749.509 200 554C200 358.491 355.133 200 546.5 200Z"
-                    fill="#FF9FF2" />
+                    fill="#FF9F9F" />
             </g>
             <defs>
                 <filter id="filter0_f_2_9" x="0" y="0" width="1093" height="1108" filterUnits="userSpaceOnUse"
