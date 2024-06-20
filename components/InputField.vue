@@ -17,7 +17,7 @@ interface fieldProps {
 
             <div relative>
                 <input v-model="model" dir="auto" py="0.3em" px="0.3em" focus="ring-2 ring-[#FF9F92] outline-none"
-                    bg="[#E8E7EA]" text="black" w="full" border="1 rounded-md [#E0E0E0]">
+                    bg="[#E8E7EA]" text="black" w="full" border="1 rounded-md [#E0E0E0]" v-bind="$attrs">
 
                 <div v-if="!model" text="[#888]" pointer-events-none absolute inset-0 flex justify-between px-2 items-center>
                     <slot name="placeholder" />
